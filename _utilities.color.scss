@@ -1,0 +1,26 @@
+// Color Utility
+
+
+
+
+// Dependencies:
+//   Settings.Default
+
+
+
+
+// Options
+
+$iota-color           : true;
+$iota-color-names     : () !default;
+
+
+
+
+@each $color-name, $color-value in $iota-color-names {
+  
+  .#{$iota-utility-namespace}color-#{$color-name} {
+    color: #{$color-value} !important;
+  }
+
+}

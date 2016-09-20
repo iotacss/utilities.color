@@ -36,10 +36,10 @@ It will generate:
 
 ```css
 .u-color-white {
-  color: #FFFFFF;
+  color: #FFFFFF !important;
 }
 
 .u-color-black {
-  color: #000000;
+  color: #000000 !important;
 }
 ```

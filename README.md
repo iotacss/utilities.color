@@ -18,7 +18,7 @@ npm install --save iotacss-color
 ### Options ###
 
 ```
-$iota-color-namespace : color !default;
+$iota-color-namespace : 'color-' !default;
 $iota-color-names     : () !default;
 ```
 

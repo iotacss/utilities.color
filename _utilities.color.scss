@@ -12,7 +12,7 @@
 // Options
 
 $iota-color           : true;
-$iota-color-namespace : color !default;
+$iota-color-namespace : 'color-' !default;
 $iota-color-names     : () !default;
 
 
@@ -20,7 +20,7 @@ $iota-color-names     : () !default;
 
 @each $color-name, $color-value in $iota-color-names {
   
-  .#{$iota-utility-namespace}#{$iota-color-namespace}-#{$color-name} {
+  .#{$iota-utility-namespace}#{$iota-color-namespace}#{$color-name} {
     color: #{$color-value} !important;
   }
 

@@ -1,6 +1,6 @@
 {
-  "name": "iotacss-color",
-  "version": "0.1.2",
+  "name": "iotacss-utils-color",
+  "version": "1.0.0",
   "description": "Color utility for iotaCSS",
   "main": "_utilities.color.scss",
   "repository": {
@@ -10,11 +10,9 @@
   "keywords": [
     "iotacss",
     "css",
+    "sass",
     "bem",
     "oocss"
   ],
-  "dependencies": {
-    "iotacss-default": "0.1.0"
-  },
   "author": "Dimitris Psaropoulos <info@harby.me>"
 }

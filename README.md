@@ -6,20 +6,16 @@ The color utility contains helper classes for the color CSS property.
 ### Installation ###
 
 ```
-npm install --save iotacss-color
+npm install --save iotacss-utils-color
 ```
-
-
-### Dependencies ###
-
-* [Settings.Default](https://github.com/iotacss/settings.default)
 
 
 ### Options ###
 
-```
-$iota-color-namespace : 'color-' !default;
-$iota-color-names     : () !default;
+```sass
+$iota-utils-color-namespace : 'color-' !default;
+
+$iota-utils-color-names     : () !default;
 ```
 
 
